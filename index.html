@@ -18,7 +18,7 @@
 
 	<section id="home">
 		<h1 style="margin-top: 90px;font-size: xx-large;margin-bottom: 60px; text-align: center; color: blue;">Welcome to my portfolio!</h1>
-        <img src="./pic.png" alt="" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;margin-top: 20px;">
+        <img src="./pic.png" alt="" class="home-img" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;margin-top: 20px;">
         <h2 id="user-detail-name" style="color: blue;margin-top: 30px; font-size: xx-large;">Lovely Kumari</h2>
         <p style="margin-top: -20px; font-weight: bolder;margin-bottom: 30px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Full Stack Web Developer!</p>
 		<p id="user-detail-intro" style="color: blue; font-size: larger;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">A passionate aspiring Full Stack Web Developer skilled in NodeJS. Is proficient in developing websites using HTML, CSS, JavaScript, NodeJS, Express and MongoDB. Looking forward to working in an organisation that can challange my abilities as a web developer.</p>
@@ -124,10 +124,63 @@
 		
 	</section>
 
+
+
+
 	<section id="projects">
-		<h2>My projects</h2>
-		<p>This is the projects section.</p>
+		<h2 style="margin-bottom: 60px;">My projects</h2>
+
+		<div style="display: flex;">
+
+
+		  <div class="project-card" style="margin-right: 20px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+			<img src="./landing page craftsvilla.jpg" alt="Project 1" style="width: 700px;height: 450px;">
+			<div>
+			<h3 class="project-title" style="font-size: x-large;">Title:R&B Craftsvilla</h3>
+			</div>
+			<p class="project-description" style="color: blue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: larger;">It is an Indian e-commerce portal that sells ethnic apparel, footwear, fashion accessories, beauty products, handcrafted home accessories and other ethnic fashion and lifestyle products.</p>
+			<p class="project-tech-stack" style="font-weight: bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Tech stack: HTML, CSS, JavaScript</p>
+			<div>
+			<a href="https://github.com/Singh-Jii/dainty-snake-6499" class="project-github-link" style="margin-left: -10px; margin-right: 10px;text-decoration: none;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">GitHub</a>
+			<a href="https://cerulean-hummingbird-b88b5c.netlify.app/" class="project-deployed-link" style="text-decoration: none;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Netlify</a>
+			</div>
+		  </div>
+
+
+		  <div class="project-card" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+			<img src="./fashion hub.jpg" alt="Project 2" style="width: 700px;height: 450px;">
+			<div>
+			<h3 class="project-title" style="font-size: x-large;">Title:Fashion Hub</h3>
+			</div>
+			<p class="project-description" style="color: blue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: larger;margin-bottom: 40px;">It is a unique, full-lifestyle shopping destination, with a mostly exclusive assortment of clothing, shoes, accessories, beauty, furniture, home décor, garden, bridal, and more.</p>
+			<p class="project-tech-stack" style="font-weight: bold;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Tech stack: HTML, CSS, JavaScript, API, JSON Server</p>
+			<div style="display: flex;">
+			<a href="https://github.com/Singh-Jii/indigo-expert-8695" class="project-github-link" style="margin-left: 300px; margin-right: 10px;text-decoration: none;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">GitHub</a>
+			<a href="https://eclectic-jelly-7ae5cd.netlify.app/" class="project-deployed-link" style="text-decoration: none;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Netlify</a>
+			</div>
+		  </div>
+		</div>
+
+
+		<div style="margin-top: 20px;">
+		  <div class="project-card">
+			<img src="./naukri.jpg" alt="Project 3">
+			<div>
+			<h3 class="project-title">Title:Jobs.com</h3>
+			</div>
+			<p class="project-description">It is an Indian employment website operating in India and Middle East. It is the largest employment website in India.</p>
+			<p class="project-tech-stack">Tech stack: HTML, CSS, JavaScript</p>
+			<div style="display: flex;">
+			<a href="https://github.com/Singh-Jii/expensive-leather-3466" class="project-github-link">GitHub</a>
+			<a href="https://superlative-banoffee-f4a291.netlify.app/" class="project-deployed-link">Netlify</a>
+			</div>
+		  </div>
+		 
+		</div>
 	</section>
+
+
+
 
 	<section id="contact">
 		<h2>Contact me</h2>
@@ -135,7 +188,7 @@
          <p id="contact-email">✉️Email:--lovelykumari.rtcit@gmail.com</p>
 		 <p id="dob">🎂DOB:--24-02-2001</p>
 		 <p id="role">👩🏻‍🎓Role:--Full Stack Web Developer</p>
-		 <div style="display: flex; margin-left: 420px;">
+		 <div style="display: flex; margin-left: 380px;">
 			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCicbfIesO1B9a94mHHX3RDjFHmN2c6kh6i4AplwzcUA&usqp=CAU&ec=48600113" alt="" style="width: 30px;height: 30px;margin-top: 15px;">
 			<p style="color: blue;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: larger;font-weight: bolder;">Tech Stacks:-- HTML | CSS | JavaScript | NodeJS | MongoDB | Express</p>
 		 </div>

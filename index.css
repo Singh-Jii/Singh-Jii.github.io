@@ -85,3 +85,17 @@ h2 {
     font-weight: bolder;
     margin-bottom: 2px;
 }
+
+
+
+
+.project-github-link:hover{
+
+    background-color: black;
+    color: white;
+}
+
+.project-deployed-link:hover{
+    background-color: black;
+    color: white;
+}
