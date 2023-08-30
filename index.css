@@ -45,6 +45,16 @@ h2 {
 }
 
 
+
+
+#resume-button-1:hover{
+    color: white;
+    background-color: rgba(186, 185, 185, 0.737);
+}
+
+
+
+
 .git a:hover{
     background-color: blue;
     color: blue;
